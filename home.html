@@ -24,19 +24,23 @@
 
   <div id="div1"></div>
   <div class="botonera" id="botonera">
-    <div class="conexto" id="btn2" onclick="mostrarp(1,2,1)">Gobierno corporativo</div>
-    <div class="conexto b2" id="btn3" onclick="mostrarp(2,3,2)">Estrategia</div>
-    <div class="conexto b2" id="btn4" onclick="mostrarp(3,4,3)">Gestión de riesgo</div>
-    <div class="conexto" id="btn5" onclick="mostrarp(4,5,4)">Métricas y objetivos</div>
+    <div class="conexto" id="btn2" onclick="mostrarp(1,2,1)">1</div>
+    <div class="conexto" id="btn3" onclick="mostrarp(2,3,2)">2</div>
+    <div class="conexto" id="btn4" onclick="mostrarp(3,4,3)">3</div>
+    <div class="conexto" id="btn5" onclick="mostrarp(4,5,4)">4</div>
+    <div class="conexto" id="btn6" onclick="mostrarp(5,6,5)">5</div>
+    <div class="conexto" id="btn7" onclick="mostrarp(6,7,6)">6</div>
   </div>
   <div class="conexto btn1 hide" id="btn1">Comenzar</div>
 
   <div class="texto1 hide align-items-center" id="text1">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Gobierno corporativo</b><br><br>
+      <div class="parr"><b class="tituparr">Consolidación de la base para un marco eficaz de gobierno
+          corporativo</b><br><br>
         <p class="justo">
-          Describir el gobierno corporativo y los roles de gestión acerca de los riesgos relacionados al cambio
-          climático, así como las oportunidades.
+          El marco de gobierno corporativo busca fomentar la transparencia y justicia en los mercados, y asegurar una
+          asignación eficiente de los recursos. Este marco se ajustará a las leyes y respaldará una supervisión y
+          ejecución efectivas.
         </p>
       </div>
 
@@ -45,10 +49,12 @@
 
   <div class="texto1 hide align-items-center" id="text2">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Estrategias</b><br><br>
+      <div class="parr"><b class="tituparr">Derechos y tratamiento equitativo de los accionistas y funciones de
+          propiedad clave</b><br><br>
         <p class="justo">
-          Describir los riesgos y oportunidades identificadas en la organización relacionadas al cambio climático a
-          corto, mediano y largo plazo, considerando los diferentes escenarios, estrategia y planificación financiera.
+          El marco de gobierno corporativo protegerá y facilitará los derechos de los accionistas, incluyendo a
+          minoritarios y extranjeros, asegurando un trato justo y la reparación efectiva de cualquier violación de sus
+          derechos.
         </p>
       </div>
 
@@ -57,10 +63,11 @@
 
   <div class="texto1 hide align-items-center" id="text3">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Gestión de riesgo</b><br><br>
+      <div class="parr"><b class="tituparr">Inversores institucionales, mercados de valores y otros
+          intermediarios</b><br><br>
         <p class="justo">
-          Divulgar los procesos organizacionales para identificar, evaluar y gestionar los riesgos relacionados al
-          cambio climático, describiendo los procesos para realizar esa actividad.
+          El marco de gobierno corporativo debe incentivar a los inversores y asegurar que los mercados de valores
+          funcionen de manera que promueva el buen gobierno corporativo.
         </p>
       </div>
 
@@ -69,14 +76,36 @@
 
   <div class="texto1 hide align-items-center" id="text4">
     <div class="intertexto">
-      <div class="parr"><b class="tituparr">Métricas y objetivos</b><br><br>
+      <div class="parr"><b class="tituparr">El papel de los actores interesados en el ámbito del gobierno
+          corporativo</b><br><br>
         <p class="justo">
-          Describir métricas y objetivos utilizados en la organización para gestionar los riesgos relacionados al cambio
-          climático, indicado el alcance y las oportunidades en la gestión de emisiones de gases de efecto invernadero,
-          entre otros riesgos.
+          El marco de gobierno corporativo reconocerá los derechos de las partes interesadas establecidos por la ley o
+          acuerdos mutuos, y fomentará la cooperación activa entre ellas y las empresas para crear riqueza y empleo, y
+          garantizar la sostenibilidad financiera de las empresas sólidas.
         </p>
       </div>
+    </div>
+  </div>
 
+  <div class="texto1 hide align-items-center" id="text5">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Divulgación de información y transparencia</b><br><br>
+        <p class="justo">
+          El marco de gobierno corporativo asegurará la comunicación precisa y oportuna de todos los asuntos relevantes
+          relacionados con la empresa, incluyendo su situación financiera, resultados, propiedad y gobierno corporativo.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text6">
+    <div class="intertexto">
+      <div class="parr"><b class="tituparr">Las responsabilidades del consejo de administración</b><br><br>
+        <p class="justo">
+          El marco de gobierno corporativo debe garantizar la dirección estratégica de la empresa, un control efectivo
+          por parte del consejo de administración y la rendición de cuentas a la empresa y los accionistas.
+        </p>
+      </div>
     </div>
   </div>
 
@@ -84,13 +113,15 @@
   <div class="contelot hide" id="lot2"></div>
   <div class="contelot hide" id="lot3"></div>
   <div class="contelot hide" id="lot4"></div>
+  <div class="contelot hide" id="lot5"></div>
+  <div class="contelot hide" id="lot6"></div>
 
   <!-------------scripts------------------>
 
   <script>
     var animationOptions = {
       container: document.getElementById('lot1'),
-      path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
+      path: 'pant1.json', // Reemplaza con la ruta de tu archivo Lottie
       renderer: 'svg',
       loop: true,
       autoplay: true,
@@ -103,7 +134,7 @@
   <script>
     var animationOptions = {
       container: document.getElementById('lot2'),
-      path: 'pant3.json', // Reemplaza con la ruta de tu archivo Lottie
+      path: 'pant2.json', // Reemplaza con la ruta de tu archivo Lottie
       renderer: 'svg',
       loop: true,
       autoplay: true,
@@ -116,7 +147,7 @@
   <script>
     var animationOptions = {
       container: document.getElementById('lot3'),
-      path: 'pant4.json', // Reemplaza con la ruta de tu archivo Lottie
+      path: 'pant3.json', // Reemplaza con la ruta de tu archivo Lottie
       renderer: 'svg',
       loop: true,
       autoplay: true,
@@ -129,6 +160,19 @@
   <script>
     var animationOptions = {
       container: document.getElementById('lot4'),
+      path: 'pant4.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol = bodymovin.loadAnimation(animationOptions);
+  </script>
+
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot5'),
       path: 'pant5.json', // Reemplaza con la ruta de tu archivo Lottie
       renderer: 'svg',
       loop: true,
@@ -139,6 +183,18 @@
     var animsol = bodymovin.loadAnimation(animationOptions);
   </script>
 
+  <script>
+    var animationOptions = {
+      container: document.getElementById('lot6'),
+      path: 'pant6.json', // Reemplaza con la ruta de tu archivo Lottie
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+    };
+
+    // Cargar la animación
+    var animsol = bodymovin.loadAnimation(animationOptions);
+  </script>
 
 
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
